@@ -1,0 +1,485 @@
+fileFormatVersion: 2
+guid: f7a72b919f2d3234caedfd85e53c81ed
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 60
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Obelisk_1
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 13
+        width: 79
+        height: 204
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5f2cd4f6ad58ce4880316ed339b1071
+      internalID: 2080300923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk_2
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 13
+        width: 79
+        height: 204
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a530fea8ed5c1ca459162118f9d648ec
+      internalID: 1919890346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk_4
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 13
+        width: 79
+        height: 204
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abe9845bd1381204b946e7e533e5bf49
+      internalID: 875048043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk_6
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 13
+        width: 79
+        height: 204
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4180293dcbf22d14294d9d4d41a96749
+      internalID: 440855638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk_7
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 13
+        width: 79
+        height: 204
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d7e0e5345da119438e70a33ead7a7c1
+      internalID: 1732370164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk_9
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 13
+        width: 79
+        height: 204
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9ad44d3d2de30d4797f197301e086f5
+      internalID: 286583337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk_11
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 13
+        width: 79
+        height: 204
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81ffa73cd89cd2548ab053724a6606bc
+      internalID: -184178079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk_12
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 13
+        width: 79
+        height: 204
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a99a9de207ea4a649983bb04fd4d6eda
+      internalID: 661756952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk_14
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 13
+        width: 79
+        height: 204
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6d6f8483a703c64eaae23b3ff415fd1
+      internalID: -1514200282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk_16
+      rect:
+        serializedVersion: 2
+        x: 1762
+        y: 13
+        width: 79
+        height: 204
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f667e33324d7d04da00ff1e27720cb1
+      internalID: -320263178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk_17
+      rect:
+        serializedVersion: 2
+        x: 1952
+        y: 13
+        width: 79
+        height: 204
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 430951360d180c947975d5d740a8c44d
+      internalID: 1070528339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk_19
+      rect:
+        serializedVersion: 2
+        x: 2142
+        y: 13
+        width: 79
+        height: 204
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a68bf783f882e046a2951c8eb173a0b
+      internalID: 1893676141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk_21
+      rect:
+        serializedVersion: 2
+        x: 2332
+        y: 13
+        width: 79
+        height: 204
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f325a2f63910a64ea62ba184c885eb0
+      internalID: 198210724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk_22
+      rect:
+        serializedVersion: 2
+        x: 2522
+        y: 13
+        width: 79
+        height: 204
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6114518742f57eb47919819ca7398a7b
+      internalID: 1694369755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Obelisk_18: 313423519
+      Obelisk_13: -1632776796
+      Obelisk_16: -320263178
+      Obelisk_45: 554519065
+      Obelisk_48: -477560362
+      Obelisk_12: 661756952
+      Obelisk_51: 1349230218
+      Obelisk_5: -743062442
+      Obelisk_6: 440855638
+      Obelisk_28: 316072031
+      Obelisk_0: -1190621487
+      Obelisk_4: 875048043
+      Obelisk_23: 1223899747
+      Obelisk_9: 286583337
+      Obelisk_25: -20529226
+      Obelisk_7: 1732370164
+      Obelisk_31: -1277979848
+      Obelisk_33: -1828297401
+      Obelisk_40: 1826229756
+      Obelisk_36: -1539466219
+      Obelisk_2: 1919890346
+      Obelisk_53: 2056276023
+      Obelisk_19: 1893676141
+      Obelisk_1: 2080300923
+      Obelisk_21: 198210724
+      Obelisk_46: -634044833
+      Obelisk_41: 1290698673
+      Obelisk_43: 1639371544
+      Obelisk_20: -230162727
+      Obelisk_14: -1514200282
+      Obelisk_54: -292484705
+      Obelisk_47: 772484940
+      Obelisk_55: 739330353
+      Obelisk_32: -252702924
+      Obelisk_42: -2071291643
+      Obelisk_29: 1628126928
+      Obelisk_52: -26778312
+      Obelisk_17: 1070528339
+      Obelisk_39: 2110437233
+      Obelisk_34: -1214691391
+      Obelisk_27: 1117876349
+      Obelisk_10: -432295183
+      Obelisk_3: 1103089038
+      Obelisk_38: -1264682556
+      Obelisk_44: -989058323
+      Obelisk_15: 619421843
+      Obelisk_22: 1694369755
+      Obelisk_8: -1702693013
+      Obelisk_37: -1498471835
+      Obelisk_24: -1145018383
+      Obelisk_11: -184178079
+      Obelisk_30: 1911646052
+      Obelisk_26: -1262612952
+      Obelisk_35: -1891709764
+      Obelisk_50: 1755604191
+      Obelisk_49: 706590547
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

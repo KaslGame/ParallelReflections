@@ -1,0 +1,573 @@
+fileFormatVersion: 2
+guid: 649b878d17af9634d9a5299bd0606cd6
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 60
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Obelisk_effects_34
+      rect:
+        serializedVersion: 2
+        x: 1934
+        y: 10
+        width: 117
+        height: 266
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16bb7f85d8b2a5543b82dea7135d76e3
+      internalID: 610339078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk_effects_52
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 13
+        width: 80
+        height: 220
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aa445e6244522f42bc2524f77db3546
+      internalID: 1638652320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk_effects_56
+      rect:
+        serializedVersion: 2
+        x: 2314
+        y: 11
+        width: 117
+        height: 368
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6410099e367a504c90c916b4b35d5da
+      internalID: 1712480441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk_effects_61
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 11
+        width: 83
+        height: 209
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e93e983644a5534bb5b20e7fa7e681f
+      internalID: -787557128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk_effects_62
+      rect:
+        serializedVersion: 2
+        x: 1554
+        y: 11
+        width: 117
+        height: 211
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 311de509550dec849b8348734d153c18
+      internalID: -1088091277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk_effects_63
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 11
+        width: 117
+        height: 208
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1203a436943091418fb80c5c0b420c2
+      internalID: -1041999983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk_effects_66
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 13
+        width: 79
+        height: 204
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e039736e221f1b419dc28289840c2a4
+      internalID: 776395732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk_effects_68
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 13
+        width: 92
+        height: 204
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bef6c674283e2c4c81d94cd2bb11e80
+      internalID: 2030135661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk_effects_69
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 13
+        width: 92
+        height: 204
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7195fd5e7bc49424796db93fec77035c
+      internalID: 1471065585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk_effects_70
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 13
+        width: 92
+        height: 204
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 210ec195216aa3c4887b25a6523a0e08
+      internalID: 1208217077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk_effects_72
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 13
+        width: 80
+        height: 204
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1c86197431c5dd429493ade1f9ff732
+      internalID: 1908194579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk_effects_73
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 13
+        width: 82
+        height: 204
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34f1e0fc9a337044381bfca07512ad60
+      internalID: -1898774490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk_effects_75
+      rect:
+        serializedVersion: 2
+        x: 2124
+        y: 11
+        width: 117
+        height: 330
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89e486139fe29bb4eb63595c09fd8977
+      internalID: -2042457913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk_effects_76
+      rect:
+        serializedVersion: 2
+        x: 2522
+        y: 13
+        width: 79
+        height: 204
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90a364fe3527d6f4a8c23a63d80d519e
+      internalID: -1927086311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Obelisk_effects_60: 1215121233
+      Obelisk_effects_133: 737774565
+      Obelisk_effects_39: -2093694924
+      Obelisk_effects_45: 291020323
+      Obelisk_effects_50: 363178457
+      Obelisk_effects_86: 1049108759
+      Obelisk_effects_42: -1421914993
+      Obelisk_effects_48: -35330627
+      Obelisk_effects_75: -2042457913
+      Obelisk_effects_65: 952093548
+      Obelisk_effects_91: -1633037459
+      Obelisk_effects_102: -667281770
+      Obelisk_effects_105: 632101315
+      Obelisk_effects_143: 1177334666
+      Obelisk_effects_3: -802653218
+      Obelisk_effects_97: 1922969677
+      Obelisk_effects_120: 313783099
+      Obelisk_effects_92: -1442250280
+      Obelisk_effects_26: 1118520267
+      Obelisk_effects_70: 1208217077
+      Obelisk_effects_81: 1375630538
+      Obelisk_effects_16: 848964919
+      Obelisk_effects_68: 2030135661
+      Obelisk_effects_80: 2118435929
+      Obelisk_effects_108: -1303596402
+      Obelisk_effects_135: -336666854
+      Obelisk_effects_109: -242581753
+      Obelisk_effects_46: 73142051
+      Obelisk_effects_110: 1121149743
+      Obelisk_effects_137: 1769989888
+      Obelisk_effects_83: -1647031352
+      Obelisk_effects_27: 1920931735
+      Obelisk_effects_59: -1460732017
+      Obelisk_effects_74: 298997472
+      Obelisk_effects_47: -649530097
+      Obelisk_effects_130: -415439957
+      Obelisk_effects_71: -1763809619
+      Obelisk_effects_18: -1627292385
+      Obelisk_effects_95: 1248535010
+      Obelisk_effects_122: 831118569
+      Obelisk_effects_1: -1002995459
+      Obelisk_effects_30: 611294052
+      Obelisk_effects_93: -898753603
+      Obelisk_effects_112: 1334469967
+      Obelisk_effects_118: -535250093
+      Obelisk_effects_94: -345269404
+      Obelisk_effects_134: -256569966
+      Obelisk_effects_98: 1091928722
+      Obelisk_effects_107: -1106539219
+      Obelisk_effects_15: 1488383017
+      Obelisk_effects_23: -685041624
+      Obelisk_effects_5: 1772335024
+      Obelisk_effects_33: 874814690
+      Obelisk_effects_25: 490199719
+      Obelisk_effects_62: -1088091277
+      Obelisk_effects_139: -357104550
+      Obelisk_effects_141: -1525166915
+      Obelisk_effects_85: -302095927
+      Obelisk_effects_10: -704544482
+      Obelisk_effects_43: -555009335
+      Obelisk_effects_84: -1619358148
+      Obelisk_effects_87: 1319397254
+      Obelisk_effects_38: -1440187081
+      Obelisk_effects_103: 332084926
+      Obelisk_effects_127: -377783408
+      Obelisk_effects_124: -502504622
+      Obelisk_effects_44: -298891906
+      Obelisk_effects_49: 1518183165
+      Obelisk_effects_138: 1775510079
+      Obelisk_effects_6: 913452325
+      Obelisk_effects_20: -2064002401
+      Obelisk_effects_21: 1794806941
+      Obelisk_effects_96: -441141544
+      Obelisk_effects_116: -950467887
+      Obelisk_effects_31: -1325849130
+      Obelisk_effects_123: 310716502
+      Obelisk_effects_117: -106211597
+      Obelisk_effects_35: -1050598122
+      Obelisk_effects_73: -1898774490
+      Obelisk_effects_132: -58347087
+      Obelisk_effects_40: -14296072
+      Obelisk_effects_58: -1016869208
+      Obelisk_effects_128: -741207900
+      Obelisk_effects_131: 280176945
+      Obelisk_effects_140: -1028492660
+      Obelisk_effects_57: 51350212
+      Obelisk_effects_7: -23195842
+      Obelisk_effects_90: -1153225317
+      Obelisk_effects_114: 478178786
+      Obelisk_effects_22: -1412854067
+      Obelisk_effects_89: 1541913360
+      Obelisk_effects_0: -507614153
+      Obelisk_effects_41: -1085995352
+      Obelisk_effects_32: 136774186
+      Obelisk_effects_34: 610339078
+      Obelisk_effects_88: -1667962943
+      Obelisk_effects_8: 833472763
+      Obelisk_effects_78: 516661229
+      Obelisk_effects_119: 72751838
+      Obelisk_effects_17: 432044319
+      Obelisk_effects_113: 1628511654
+      Obelisk_effects_9: 450047834
+      Obelisk_effects_53: -1372573431
+      Obelisk_effects_136: 486616982
+      Obelisk_effects_14: 1329825319
+      Obelisk_effects_126: -1860456721
+      Obelisk_effects_54: 1533148332
+      Obelisk_effects_142: 198841812
+      Obelisk_effects_29: -388420621
+      Obelisk_effects_56: 1712480441
+      Obelisk_effects_67: 1353511904
+      Obelisk_effects_99: 42691489
+      Obelisk_effects_69: 1471065585
+      Obelisk_effects_115: -621192632
+      Obelisk_effects_101: -405536459
+      Obelisk_effects_2: -359601218
+      Obelisk_effects_79: 213501493
+      Obelisk_effects_11: -660046597
+      Obelisk_effects_36: -1971247532
+      Obelisk_effects_19: 1536904763
+      Obelisk_effects_104: -2128112262
+      Obelisk_effects_28: 58445530
+      Obelisk_effects_64: 1369254083
+      Obelisk_effects_129: -2011961651
+      Obelisk_effects_121: -1871661985
+      Obelisk_effects_61: -787557128
+      Obelisk_effects_55: -537262746
+      Obelisk_effects_63: -1041999983
+      Obelisk_effects_13: -873955116
+      Obelisk_effects_52: 1638652320
+      Obelisk_effects_111: -365639135
+      Obelisk_effects_77: 717785646
+      Obelisk_effects_76: -1927086311
+      Obelisk_effects_106: 1043416718
+      Obelisk_effects_66: 776395732
+      Obelisk_effects_72: 1908194579
+      Obelisk_effects_51: -2103324966
+      Obelisk_effects_82: -1523052704
+      Obelisk_effects_37: 1434207965
+      Obelisk_effects_125: 878218869
+      Obelisk_effects_100: -794296800
+      Obelisk_effects_4: 1010797636
+      Obelisk_effects_24: 38980814
+      Obelisk_effects_12: -831516427
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
