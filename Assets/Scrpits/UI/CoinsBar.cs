@@ -6,7 +6,7 @@ using UnityEngine;
 [RequireComponent(typeof(AudioSource))]
 public class CoinsBar : MonoBehaviour
 {
-    [SerializeField] private Player _player;
+    [SerializeField] private Wallet _wallet;
     [SerializeField] private TMP_Text _coinsText;
     [SerializeField] private AudioClip _coinSound;
 
@@ -19,12 +19,12 @@ public class CoinsBar : MonoBehaviour
 
     private void OnEnable()
     {
-        _player.CoinsAmountChange += OnCoinsChange;
+        _wallet.CoinsAmountChange += OnCoinsChange;
     }
 
     private void OnDisable()
     {
-        _player.CoinsAmountChange -= OnCoinsChange;
+        _wallet.CoinsAmountChange -= OnCoinsChange;
     }
 
     private void OnCoinsChange(int coins)

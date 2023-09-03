@@ -7,19 +7,19 @@ public class CameraTracker : MonoBehaviour
 {
     [SerializeField] private Transform _target;
     [SerializeField] private Ghost _ghost;
-    [SerializeField] private Player _player;
+    [SerializeField] private PlayerRespawnManager _playerRespawnManager;
     [SerializeField] private float _moveSpeed;
 
     private void OnEnable()
     {
         _ghost.GhostSpawned += OnGhostSpawned;
-        _player.PlayerSpawned += OnPlayerSpawned;
+        _playerRespawnManager.PlayerSpawned += OnPlayerSpawned;
     }
 
     private void OnDisable()
     {
         _ghost.GhostSpawned -= OnGhostSpawned;
-        _player.PlayerSpawned -= OnPlayerSpawned;
+        _playerRespawnManager.PlayerSpawned -= OnPlayerSpawned;
     }
 
     private void OnGhostSpawned(Ghost ghost)

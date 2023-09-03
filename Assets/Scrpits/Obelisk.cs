@@ -27,7 +27,7 @@ public class Obelisk : MonoBehaviour
     {
         _animator.SetTrigger(Charge);
         _isCharge = true;
-        _player.AddCountPossibleRevivals();
+        _player.GetComponent<PlayerRespawnManager>().AddCountPossibleRevivals();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

@@ -979,7 +979,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4726597808052885385, guid: 08df732a18d490342a9b394cf9012ae2, type: 3}
   m_PrefabInstance: {fileID: 4726597807116621537}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1288506108}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 60073e3e868d61b40bc4cf3fce859f34, type: 3}
@@ -1505,7 +1505,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14eba152ce508bd4a8447d659e07e326, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _player: {fileID: 378402574}
+  _playerRespawnManager: {fileID: 1288506121}
   _menu: {fileID: 703323387}
 --- !u!114 &503399089
 MonoBehaviour:
@@ -1856,7 +1856,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _target: {fileID: 0}
   _ghost: {fileID: 1372116487}
-  _player: {fileID: 378402574}
+  _playerRespawnManager: {fileID: 1288506121}
   _moveSpeed: 5
 --- !u!1 &536761337
 GameObject:
@@ -10853,6 +10853,35 @@ Transform:
   m_Father: {fileID: 519420032}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1288506108 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4726597808052885377, guid: 08df732a18d490342a9b394cf9012ae2, type: 3}
+  m_PrefabInstance: {fileID: 4726597807116621537}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1288506120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1288506108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23e9d0ca70deb1f4b980988bfdf4e0d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _coins: 0
+--- !u!114 &1288506121 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1527997939494683790, guid: 08df732a18d490342a9b394cf9012ae2, type: 3}
+  m_PrefabInstance: {fileID: 4726597807116621537}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1288506108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3febe5ce29244943b1ae1bc229a59cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1294560674
 GameObject:
   m_ObjectHideFlags: 0
@@ -11070,7 +11099,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df5b8131aa6a05245a8e8ec9a5a05fbd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _player: {fileID: 378402574}
+  _wallet: {fileID: 1288506120}
   _coinsText: {fileID: 1459107032}
   _coinSound: {fileID: 8300000, guid: d617a8a7a44fb0f46a828df4e9e0b429, type: 3}
 --- !u!82 &1317710457
@@ -11940,6 +11969,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3cdece01048c74945ba2b5b762db4558, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _wallet: {fileID: 1288506120}
   _player: {fileID: 378402574}
   _priceTextHealth: {fileID: 2116276303}
   _priceTextDamage: {fileID: 1853140438}

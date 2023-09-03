@@ -6,6 +6,11 @@ using UnityEngine;
 [RequireComponent(typeof(Animator))]
 public class Enemy : MonoBehaviour
 {
+    const string DeathAnimation = "Dead";
+    const string HitAnimation = "Hit";
+    const string WalkAnimation = "Walk";
+    const string AttackAnimation = "Attack";
+
     [SerializeField] private int _maxHealth;
     [SerializeField] private int _damage;
     [SerializeField] private float _speed;
@@ -30,7 +35,6 @@ public class Enemy : MonoBehaviour
     {
         _animator = GetComponent<Animator>();
         _health = _maxHealth;
-        
     }
 
     private void Update()
@@ -43,16 +47,16 @@ public class Enemy : MonoBehaviour
     public void TakeDamage(int damage)
     {
         _health = Mathf.Clamp(_health - damage, _minHealth, _maxHealth);
-        _animator.SetTrigger("Hit");
+        _animator.SetTrigger(HitAnimation);
 
         if (_health <= 0)
-            _animator.SetTrigger("Dead");
+            _animator.SetTrigger(DeathAnimation);
     }
 
     public void Die()
     {
         Destroy(gameObject);
-        _target.AddCoins(_reward);
+        _target.GetComponent<Wallet>().AddCoins(_reward);
     }
 
     private void Flip()
@@ -72,17 +76,17 @@ public class Enemy : MonoBehaviour
             if (Vector2.Distance(transform.position, GetTargetTransform().transform.position) > _stopDistance)
             {
                 transform.position = Vector2.MoveTowards(transform.position, GetTargetTransform().transform.position, _speed * Time.deltaTime);
-                _animator.SetBool("Walk", !_isStop);
+                _animator.SetBool(WalkAnimation, !_isStop);
             }
             else if (Vector2.Distance(transform.position, GetTargetTransform().transform.position) < _stopDistance)
             {
                 transform.position = this.transform.position;
-                _animator.SetBool("Walk", _isStop);
+                _animator.SetBool(WalkAnimation, _isStop);
             }
         }
         else
         {
-            _animator.SetBool("Walk", false);
+            _animator.SetBool(WalkAnimation, false);
         }
     }
 
@@ -109,7 +113,7 @@ public class Enemy : MonoBehaviour
             {
                 _timeBetweenAttack = 0;
                 _isStop = true;
-                _animator.SetTrigger("Attack");
+                _animator.SetTrigger(AttackAnimation);
             }
         }
     }

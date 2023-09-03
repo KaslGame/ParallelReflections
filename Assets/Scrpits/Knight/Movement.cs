@@ -32,12 +32,12 @@ public class Movement : MonoBehaviour
 
     private void OnEnable()
     {
-        _checkGround.IsGroundChange += OnIsGroundChange;
+        _checkGround.GroundStatusChange += OnIsGroundChange;
     }
 
     private void OnDisable()
     {
-        _checkGround.IsGroundChange -= OnIsGroundChange;
+        _checkGround.GroundStatusChange -= OnIsGroundChange;
     }
 
     private void Update()

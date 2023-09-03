@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(Player))]
+[RequireComponent(typeof(PlayerRespawnManager))]
 [RequireComponent(typeof(Movement))]
 [RequireComponent(typeof(AudioSource))]
 public class KnightSounds : MonoBehaviour
@@ -16,7 +16,7 @@ public class KnightSounds : MonoBehaviour
 
     private AudioSource _audioSource;
     private Movement _movement;
-    private Player _player;
+    private PlayerRespawnManager _playerRespawnManager;
 
     private float maxVolume = 1f;
 
@@ -24,17 +24,17 @@ public class KnightSounds : MonoBehaviour
     {
         _audioSource = GetComponent<AudioSource>();
         _movement = GetComponent<Movement>();
-        _player = GetComponent<Player>();
+        _playerRespawnManager = GetComponent<PlayerRespawnManager>();
     }
 
     private void OnEnable()
     {
-        _player.Died += OnDied;
+        _playerRespawnManager.Died += OnDied;
     }
 
     private void OnDisable()
     {
-        _player.Died -= OnDied;
+        _playerRespawnManager.Died -= OnDied;
     }
 
     private void Update()

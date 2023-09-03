@@ -5,16 +5,16 @@ using UnityEngine.Events;
 
 public class CheckGround : MonoBehaviour
 {
-    public event UnityAction<bool> IsGroundChange;
+    public event UnityAction<bool> GroundStatusChange;
 
-    private bool _isGround;
+    private bool _onGround;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.TryGetComponent(out Ground groud))
         {
-            _isGround = true;
-            IsGroundChange?.Invoke(_isGround);
+            _onGround = true;
+            GroundStatusChange?.Invoke(_onGround);
         }
     }
 
@@ -22,8 +22,8 @@ public class CheckGround : MonoBehaviour
     {
         if (collision.TryGetComponent(out Ground groud))
         {
-            _isGround = false;
-            IsGroundChange?.Invoke(_isGround);
+            _onGround = false;
+            GroundStatusChange?.Invoke(_onGround);
         }
     }
 }

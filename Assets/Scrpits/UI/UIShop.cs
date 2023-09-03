@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class UIShop : MonoBehaviour
 {
+    [SerializeField] private Wallet _wallet;
     [SerializeField] private Player _player;
     [SerializeField] private TMP_Text _priceTextHealth;
     [SerializeField] private TMP_Text _priceTextDamage;
@@ -44,11 +45,11 @@ public class UIShop : MonoBehaviour
     {
         if (_currentHealthUpgrade <= _maxHealthUpgrade)
         {
-            if (_player.Coins >= _costsHealthUpgrade[_currentHealthUpgrade])
+            if (_wallet.Coins >= _costsHealthUpgrade[_currentHealthUpgrade])
             {
                 _player.SetMaxHealth(_amountHealthUpgrade[_currentHealthUpgrade]);
                 _player.Heal(_player.MaxHealth);
-                _player.Buy(_costsHealthUpgrade[_currentHealthUpgrade]);
+                _wallet.TakeCoins(_costsHealthUpgrade[_currentHealthUpgrade]);
                 _currentHealthUpgrade++;
                 _priceTextHealth.text = _costsHealthUpgrade[_currentHealthUpgrade].ToString();
             }
@@ -63,10 +64,10 @@ public class UIShop : MonoBehaviour
     {
         if (_currentHealthUpgrade <= _maxDamageUpgrade)
         {
-            if (_player.Coins >= _costsDamageUpgrade[_currentDamageUpgrade])
+            if (_wallet.Coins >= _costsDamageUpgrade[_currentDamageUpgrade])
             {
                 _player.GetComponent<PlayerCombat>().UpgradeDamage(_amountDamageUpgrade[_currentDamageUpgrade]);
-                _player.Buy(_costsDamageUpgrade[_currentDamageUpgrade]);
+                _wallet.TakeCoins(_costsDamageUpgrade[_currentDamageUpgrade]);
                 _currentDamageUpgrade++;
                 _priceTextDamage.text = _costsDamageUpgrade[_currentDamageUpgrade].ToString();
             }

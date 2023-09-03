@@ -6,17 +6,17 @@ using UnityEngine.SceneManagement;
 
 public class GameOverMenu : MonoBehaviour
 {
-    [SerializeField] private Player _player;
+    [SerializeField] private PlayerRespawnManager _playerRespawnManager;
     [SerializeField] private GameObject _menu;
 
     private void OnEnable()
     {
-        _player.Died += OnDied;
+        _playerRespawnManager.Died += OnDied;
     }
 
     private void OnDisable()
     {
-        _player.Died -= OnDied;
+        _playerRespawnManager.Died -= OnDied;
     }
 
     public void Again()

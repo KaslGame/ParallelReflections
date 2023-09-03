@@ -9,6 +9,7 @@ using UnityEngine.EventSystems;
 [RequireComponent(typeof(SpriteRenderer))]
 [RequireComponent(typeof(Movement))]
 [RequireComponent(typeof(Player))]
+[RequireComponent(typeof(PlayerRespawnManager))]
 public class PlayerAnimations : MonoBehaviour
 {
     const string Horizontal = "Horizontal";
@@ -25,8 +26,9 @@ public class PlayerAnimations : MonoBehaviour
     private Movement _movement;
     private Player _player;
     private CheckGround _checkGround;
+    private PlayerRespawnManager _playerRespawnManager;
 
-    private bool _isGround = false;
+    private bool _onGround = false;
     private bool _isLastDeath = false;
 
     private void Awake()
@@ -35,20 +37,21 @@ public class PlayerAnimations : MonoBehaviour
         _movement = GetComponent<Movement>();
         _player = GetComponent<Player>();
         _checkGround = GetComponent<CheckGround>();
+        _playerRespawnManager = GetComponent<PlayerRespawnManager>();
     }
 
     private void OnEnable()
     {
-        _checkGround.IsGroundChange += OnIsGroundChange;
+        _checkGround.GroundStatusChange += OnGroundStatusChange;
         _player.HealthChange += OnHealthChanged;
-        _player.Died += OnDied;
+        _playerRespawnManager.Died += OnDied;
     }
 
     private void OnDisable()
     {
-        _checkGround.IsGroundChange -= OnIsGroundChange;
+        _checkGround.GroundStatusChange -= OnGroundStatusChange;
         _player.HealthChange -= OnHealthChanged;
-        _player.Died -= OnDied;
+        _playerRespawnManager.Died -= OnDied;
     }
 
     private void Update()
@@ -69,10 +72,10 @@ public class PlayerAnimations : MonoBehaviour
         }
     }
 
-    private void OnIsGroundChange(bool isGround)
+    private void OnGroundStatusChange(bool isGround)
     {
-        _isGround = isGround;
-        _animator.SetBool(IsGroundAnimation, _isGround);
+        _onGround = isGround;
+        _animator.SetBool(IsGroundAnimation, _onGround);
     }
 
     private void OnHealthChanged(int health, int maxHealth)
@@ -101,13 +104,13 @@ public class PlayerAnimations : MonoBehaviour
 
     private void TryJump()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && _isGround && _movement.IsStoped == false)
+        if (Input.GetKeyDown(KeyCode.Space) && _onGround && _movement.IsStoped == false)
             _animator.SetTrigger(JumpAnimation);
     }
 
     private void TryAttack()
     {
-        if (Input.GetMouseButtonDown(0) && IsPointerOverUI() == false && _isGround && _movement.IsStoped == false)
+        if (Input.GetMouseButtonDown(0) && IsPointerOverUI() == false && _onGround && _movement.IsStoped == false)
             _animator.SetTrigger(AttackAnimation);
     }
 
